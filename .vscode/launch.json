@@ -1,0 +1,133 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug A",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=a"
+        ],
+        "filter": {
+          "name": "a",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}",
+      "sourceLanguages": [
+        "rust"
+      ]
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug B",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=b"
+        ],
+        "filter": {
+          "name": "b",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug C",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=c"
+        ],
+        "filter": {
+          "name": "c",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}",
+      "sourceLanguages": [
+        "rust"
+      ]
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug D",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=d"
+        ],
+        "filter": {
+          "name": "d",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug E",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=e"
+        ],
+        "filter": {
+          "name": "e",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug F",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=f"
+        ],
+        "filter": {
+          "name": "f",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug G",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=g"
+        ],
+        "filter": {
+          "name": "g",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${fileDirname}"
+    },
+  ]
+}

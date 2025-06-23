@@ -1,0 +1,12 @@
+[alias]     # command aliases
+ra = "run --bin a"
+rb = "run --bin b"
+rc = "run --bin c"
+rd = "run --bin d"
+re = "run --bin e"
+rf = "run --bin f"
+rg = "run --bin g"
+rh = "run --bin h"
+c = "check"
+t = "test"
+r = "run"
