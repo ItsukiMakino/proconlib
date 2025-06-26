@@ -6,3 +6,4 @@
 |:---|:---|
 |[Combination](examples/combination.rs)|!comb|
 |[Rational](tests/ratio.rs)|!ratio|
+|[Sieve](examples/sieve.rs)|!sieve|
