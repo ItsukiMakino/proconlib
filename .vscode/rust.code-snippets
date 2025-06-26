@@ -259,5 +259,31 @@
       "}"
     ],
     "description": "Binary Lifting LCA with cost and length support"
+  },
+    "Sieve": {
+    "prefix": "!sieve",
+    "body": [
+      "struct Sieve {",
+      "    p: Vec<usize>,",
+      "}",
+      "impl Sieve {",
+      "    fn new(n: usize) -> Self {",
+      "        let mut p = vec![];",
+      "        let mut is_prime = vec![true; n + 1];",
+      "        for i in 2..=n {",
+      "            if is_prime[i] {",
+      "                p.push(i);",
+      "                let mut now = i;",
+      "                while now + i <= n {",
+      "                    now += i;",
+      "                    is_prime[now] = false;",
+      "                }",
+      "            }",
+      "        }",
+      "        Sieve { p }",
+      "    }",
+      "}"
+    ],
+    "description": "Sieve of Eratosthenes implementation"
   }
 }
