@@ -1,4 +1,4 @@
-##  競技プログラミング用ライブラリ
+# 競技プログラミング用ライブラリ
 
 スニペット [.vscode/rust.code-snippets](.vscode/rust.code-snippets)
 

@@ -61,7 +61,6 @@
       "            denominator: denom / g,",
       "        }",
       "    }",
-      
       "}",
       "",
       "impl PartialEq for Rational {",
