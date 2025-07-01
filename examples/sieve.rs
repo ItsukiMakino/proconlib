@@ -1,5 +1,6 @@
 struct Sieve {
     p: Vec<usize>,
+    is_prime: Vec<bool>,
 }
 impl Sieve {
     fn new(n: usize) -> Self {
@@ -15,7 +16,7 @@ impl Sieve {
                 }
             }
         }
-        Sieve { p }
+        Sieve { p, is_prime }
     }
 }
 fn main() {
