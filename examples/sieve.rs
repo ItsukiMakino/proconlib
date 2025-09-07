@@ -1,3 +1,4 @@
+#[allow(unused)]
 struct Sieve {
     p: Vec<usize>,
     is_prime: Vec<bool>,
